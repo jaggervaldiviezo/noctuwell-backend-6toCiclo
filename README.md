@@ -32,10 +32,12 @@ API desarrollada con **Spring Boot** para soportar la plataforma Noctuwell, enca
 - **Spring Boot** como framework principal.
 - Estructura por capas:
   - **Controllers** (endpoints REST)
+  - **DTOs** (objetos de transferencia para Requests/Responses)
   - **Service Interface** (contratos / firmas de servicios)
   - **Service Implements** (implementación de lógica de negocio)
   - **Repositories** (acceso a datos)
   - **Entities/Models** (modelo de dominio)
+  - **Exceptions** (manejo de errores, validaciones y respuestas controladas)
 - Configuración por `application.properties` / `application.yml`.
 - **Security** con JWT para protección de endpoints.
 
@@ -58,10 +60,13 @@ Configura los valores en `src/main/resources/application.properties` (o `.yml`),
 - Conexión a base de datos (URL, usuario, contraseña)
 - Configuración de seguridad (secret/expiración de JWT, etc.)
 
----
+--- 
 
-## Instalación
+## Licencia Proyecto desarrollado con fines académicos. 
 
-### Opción Maven
-```bash
-mvn clean install
+--- 
+
+**Curso:** Arquitectura de Aplicaciones Web                       
+**Grupo:** 4                   
+**Ciclo:** 2025-2                  
+**Desarrollado durante:** Ago 2025 - Dic 2025
